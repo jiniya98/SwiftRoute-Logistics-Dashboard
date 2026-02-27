@@ -1,21 +1,17 @@
 # SwiftRoute-Logistics-Dashboard
-SwiftRoute Logistics Dashboard
-📦 SwiftRoute – Logistics Analytics & Dashboard
-
-A Business Intelligence project built using Power BI to analyze and optimize logistics operations including Orders, Delivery Performance, Hubs, Drivers, and Vehicles.
 📌 Project Objective
 
 The objective of this project is to design an interactive Power BI dashboard that enables stakeholders to:
 
-Monitor operational efficiency
+* Monitor operational efficiency
 
-Track delivery performance
+* Track delivery performance
 
-Identify bottlenecks in hubs and drivers
+* Identify bottlenecks in hubs and drivers
 
-Analyze vehicle reliability
+* Analyze vehicle reliability
 
-Improve customer satisfaction using data-driven insights
+* Improve customer satisfaction using data-driven insights
 
 This dashboard supports strategic decision-making in logistics management.
 
@@ -31,7 +27,10 @@ This dashboard supports strategic decision-making in logistics management.
 
 🔹 Power Query (Data Cleaning & Transformation)
 
+
+
 📊 Business KPIs Covered
+
 📦 Orders
 
 Total Orders
@@ -53,7 +52,6 @@ Delivery Time MoM Change
 Customer Satisfaction (CSAT %)
 
 CSAT MoM Change
-
 🏢 Hub Operations
 
 Hub Capacity vs Orders
@@ -84,7 +82,10 @@ Vehicle Age vs Failures
 
 Model-wise Reliability
 
+
 📊 Dashboard Pages
+
+
 🧭 1️⃣ Home Dashboard
 Key Highlights:
 
@@ -155,12 +156,8 @@ Orders by Vehicle Type
 
 Supports maintenance planning and fleet optimization.
 
-📁 Data Sources
-File	Description
-Drivers.csv	Driver details including experience and ratings
-Hubs.csv	Hub capacity and performance data
-Orders.csv	Order and delivery records
-Vehicles.csv	Fleet information and breakdown data
+
+
 🧹 Data Cleaning & Transformation
 Steps Performed:
 
@@ -188,6 +185,8 @@ On-Time Delivery %
 
 Utilization Metrics
 
+
+
 📈 Data Modeling Approach
 
 Star schema design
@@ -200,17 +199,6 @@ Optimized relationships for performance
 
 Used DAX for advanced time intelligence calculations
 
-🚀 How to Use This Project
-
-Download the .pbix file
-
-Open in Power BI Desktop
-
-Refresh the dataset
-
-Navigate through dashboards
-
-Interact using slicers and filters
 
 🎯 Business Impact
 
@@ -228,13 +216,11 @@ Improvement in on-time delivery rates
 
 Better maintenance and capacity planning
 
+
+
+
 👤 Author
 
 Jiniya Xavier
 Postgraduate in Economics | Business Analytics Certified
 Aspiring Data Analyst | Data Science Learner
-
-
-✨ Make a visually premium GitHub version with badges & icons
-
-Tell me which version you want 🚀
