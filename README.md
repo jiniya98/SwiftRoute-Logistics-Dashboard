@@ -33,54 +33,54 @@ This dashboard supports strategic decision-making in logistics management.
 
 📦 Orders
 
-Total Orders
+* Total Orders
 
-Previous Month Orders
+* Previous Month Orders
 
-Month-over-Month (MoM) Growth %
+* Month-over-Month (MoM) Growth %
 
 🚚 Delivery Performance
 
-On-Time Delivery %
+* On-Time Delivery %
 
-Average Delivery Time (Hours)
+* Average Delivery Time (Hours)
 
-Delivery Time MoM Change
+* Delivery Time MoM Change
 
 😊 Customer Metrics
 
-Customer Satisfaction (CSAT %)
+* Customer Satisfaction (CSAT %)
 
-CSAT MoM Change
+* CSAT MoM Change
 🏢 Hub Operations
 
-Hub Capacity vs Orders
+* Hub Capacity vs Orders
 
-Hub Performance Ranking
+* Hub Performance Ranking
 
-Hub Processing Time
+* Hub Processing Time
 
 👨‍✈️ Driver Performance
 
-Driver Rating vs Experience
+* Driver Rating vs Experience
 
-Drivers with Most Delays
+* Drivers with Most Delays
 
-Monthly Order Trend
+* Monthly Order Trend
 
-Driver Profile Summary
+* Driver Profile Summary
 
 🚛 Vehicle Analytics
 
-Operational Readiness
+* Operational Readiness
 
-Vehicle Utilization
+* Vehicle Utilization
 
-Breakdown Analysis
+* Breakdown Analysis
 
-Vehicle Age vs Failures
+* Vehicle Age vs Failures
 
-Model-wise Reliability
+* Model-wise Reliability
 
 
 📊 Dashboard Pages
@@ -89,70 +89,78 @@ Model-wise Reliability
 🧭 1️⃣ Home Dashboard
 Key Highlights:
 
-Total Orders
+* Total Orders.
 
-Previous Month Orders
+* Previous Month Orders.
 
-MoM Growth %
+* MoM Growth % :Month-over-Month change.
 
-On-Time Delivery %
+* On-Time Delivery %: Percentage of orders delivered on time.
 
-On-Time MoM Change
+* On-Time MoM Change: Change vs previous month.
 
-CSAT %
+* CSAT %: Customer satisfaction percentage.
 
-CSAT MoM Change
+* CSAT MoM Change: Change vs previous month.
 
-Average Delivery Time
+* Avg Delivery Time (Hours): Average time taken to deliver.
 
-Delivery Time MoM %
+* Delivery Time MoM %:Change in average duration.
+<img width="1255" height="737" alt="image" src="https://github.com/user-attachments/assets/719ab262-b968-4dbb-8d34-de4b8198d03c" />
 
 This page provides a high-level executive overview of overall logistics performance.
 
 🏢 2️⃣ Hubs Dashboard
-KPIs:
 
-Total Hubs
+🔹KPIs:
 
-Orders vs Capacity
+* Total Hubs
 
-Hub Performance Ranking
+* Orders vs Capacity
 
-Hub Processing Time
+* Hub Performance Ranking
+
+* Hub Processing Time
+
+<img width="1256" height="735" alt="image" src="https://github.com/user-attachments/assets/66813dc7-a30e-40c9-bc2b-98dfa59a321c" />
 
 Helps identify underperforming or overloaded hubs.
 
 🚗 3️⃣ Drivers Dashboard
 KPIs:
 
-Total Drivers
+* Total Drivers
 
-Experience vs Rating
+* Experience vs Rating
 
-Drivers with Most Delays
+* Drivers with Most Delays
 
-Monthly Order Trend
+* Monthly Order Trend
 
-Driver Profile Summary
+* Driver Profile Summary
+<img width="1258" height="737" alt="image" src="https://github.com/user-attachments/assets/375d4dad-c90b-40d2-a167-0118fe5be38f" />
 
 Used to evaluate workforce efficiency and delay patterns.
 
 🚛 4️⃣ Vehicles Dashboard
 KPIs:
 
-Total Vehicles
+* Total Vehicles
 
-Operational Readiness %
+* Operational Readiness %
 
-Orders by Vehicle Model
+* Orders by Vehicle Model
 
-Vehicle Age vs Breakdown
+* Vehicle Age vs Breakdown
 
-Breakdown by Vehicle Code
+* Breakdown by Vehicle Code
 
-Breakdown by Model
+* Breakdown by Model
 
-Orders by Vehicle Type
+* Orders by Vehicle Type
+
+  <img width="1257" height="741" alt="image" src="https://github.com/user-attachments/assets/4827f920-0c4f-425c-be43-99ed7ca9cc76" />
+
 
 Supports maintenance planning and fleet optimization.
 
@@ -161,60 +169,60 @@ Supports maintenance planning and fleet optimization.
 🧹 Data Cleaning & Transformation
 Steps Performed:
 
-Removed duplicate records
+* Removed duplicate records
 
-Standardized date formats
+* Standardized date formats
 
-Created a Date Dimension table
+* Created a Date Dimension table
 
-Handled missing/null values
+* Handled missing/null values
 
-Built relationships between fact and dimension tables
+* Built relationships between fact and dimension tables
 
 Calculated Metrics:
 
-Delivery Duration (Hours)
+-- Delivery Duration (Hours)
 
-Month-over-Month Growth %
+-- Month-over-Month Growth %
 
-Vehicle Age
+-- Vehicle Age
 
-Delay Count per Driver
+-- Delay Count per Driver
 
-On-Time Delivery %
+-- On-Time Delivery %
 
-Utilization Metrics
+-- Utilization Metrics
 
 
 
 📈 Data Modeling Approach
 
-Star schema design
+** Star schema design
 
-Central Orders fact table
+** Central Orders fact table
 
-Connected dimensions: Drivers, Hubs, Vehicles, Date
+** Connected dimensions: Drivers, Hubs, Vehicles, Date
 
-Optimized relationships for performance
+** Optimized relationships for performance
 
-Used DAX for advanced time intelligence calculations
+** Used DAX for advanced time intelligence calculations
 
 
 🎯 Business Impact
 
 This dashboard enables:
 
-Performance monitoring at operational & strategic levels
+-- Performance monitoring at operational & strategic levels
 
-Identification of high-delay drivers
+-- Identification of high-delay drivers
 
-Hub overload detection
+-- Hub overload detection
 
-Fleet reliability analysis
+-- Fleet reliability analysis
 
-Improvement in on-time delivery rates
+-- Improvement in on-time delivery rates
 
-Better maintenance and capacity planning
+-- Better maintenance and capacity planning
 
 
 
